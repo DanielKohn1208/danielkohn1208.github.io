@@ -44,7 +44,7 @@
 		color: var(--text);
 	}
 	.project-container {
-		max-width: 300px;
+		max-width: 350px;
 		padding: 10px;
 		border-color: var(--mauve);
 		background-color: var(--surface0);
