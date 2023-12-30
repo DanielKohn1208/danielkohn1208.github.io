@@ -58,7 +58,7 @@
 			<h2>Resume <Icon icon="twemoji:check-mark-button" /></h2>
 			Here is a pdf copy of my resume. Click <a href={resumeurl}>here</a> to
 			download
-			<object class="pdf-viewer" data={resumeurl} type="application/pdf"
+			<object id="pdf-viewer" class="pdf-viewer" data={resumeurl} type="application/pdf"
 			></object>
 
 			<h2>
@@ -98,6 +98,9 @@
 </svelte:head>
 
 <style>
+	.pdf-viewer {
+		background-color: white;
+	}
 	footer {
 		padding-top: 50px;
 	}
