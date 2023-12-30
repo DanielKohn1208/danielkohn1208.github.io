@@ -17,8 +17,9 @@
 		<div transition:fade={{ delay: 150, duration: 500 }}>
 			<p class="paragraph">
 				I'm currently a student in my 1B term at the University of Waterloo
-				studying Computer Science. Besides my interest in Computer Science, I also love to ski and listen to jazz music. I'm currently looking for a coop position for summer 2024.
-				this summer.
+				studying Computer Science. Besides my interest in Computer Science, I
+				also love to ski and listen to jazz music. I'm currently looking for a
+				coop position for summer 2024. this summer.
 			</p>
 
 			<h2>Projects <Icon icon="vscode-icons:folder-type-cli" /></h2>
@@ -31,13 +32,26 @@
 				/>
 				<Project
 					title={"linktree clone"}
-					technologies={['Svelte', 'SvelteKit', 'Node.js', 'MongoDB', "Bulma CSS"]}
+					technologies={[
+						"Svelte",
+						"SvelteKit",
+						"Node.js",
+						"MongoDB",
+						"Bulma CSS",
+					]}
 					link={"https://github.com/DanielKohn1208/Linktree-Clone"}
 					description={"Built a clone of the popular site linktree"}
 				/>
 				<Project
 					title={"chat app"}
-					technologies={["Python", "Django", "Django-channels", "Javascript", "SQLite", "Bootstrap CSS"]}
+					technologies={[
+						"Python",
+						"Django",
+						"Django-channels",
+						"Javascript",
+						"SQLite",
+						"Bootstrap CSS",
+					]}
 					link={"https://github.com/DanielKohn1208/django-chat-app"}
 					description={"Built a real time chat application using the Django Framework"}
 				/>
@@ -54,12 +68,6 @@
 					description={"Built a site to help friends and myself study for a chemistry quiz"}
 				/>
 			</div>
-
-			<h2>Resume <Icon icon="twemoji:check-mark-button" /></h2>
-			Here is a pdf copy of my resume. Click <a href={resumeurl}>here</a> to
-			download
-			<object id="pdf-viewer" class="pdf-viewer" data={resumeurl} type="application/pdf"
-			></object>
 
 			<h2>
 				Contact Information <Icon icon="noto:closed-mailbox-with-raised-flag" />
@@ -81,11 +89,24 @@
 				</li>
 			</ul>
 
+			<h2>Resume <Icon icon="twemoji:check-mark-button" /></h2>
+			Here is a pdf copy of my resume. Click<a href={resumeurl}>here</a> to
+			download
+			<object
+				id="pdf-viewer"
+				class="pdf-viewer"
+				data={resumeurl}
+				type="application/pdf"
+			></object>
+
 			<footer>
-				This website was built using <a href="https://svelte.dev/">Svelte</a>, the <a
-					href="https://github.com/catppuccin">Catpuccin Color Scheme</a
-				>, and the <a href="https://iconify.design/">Iconify Icon library</a>.
-				View the source code for this site <a href="https://github.com/DanielKohn1208/danielkohn1208.github.io">here</a>.
+				This website was built using <a href="https://svelte.dev/">Svelte</a>,
+				the <a href="https://github.com/catppuccin">Catpuccin Color Scheme</a>,
+				and the <a href="https://iconify.design/">Iconify Icon library</a>. View
+				the source code for this site
+				<a href="https://github.com/DanielKohn1208/danielkohn1208.github.io"
+					>here</a
+				>.
 			</footer>
 		</div>
 	{/if}
@@ -120,7 +141,7 @@
 		align-items: center;
 	}
 
-	.paragraph{
+	.paragraph {
 		text-align: justify;
 	}
 </style>
