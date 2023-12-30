@@ -2,11 +2,11 @@
 	import {createEventDispatcher} from 'svelte';
 	const dispatch = createEventDispatcher();
 	let typewriterElement;
-	const valueToDisplay = `👋 I'm Daniel `;
+	const valueToDisplay = `👋 Hi, I'm Daniel`;
 	let curVal = "";
 	var i = 0;
 	function generateWaitTime(){
-		const val = Math.random() * 300;
+		const val = Math.random() * 200;
 		return val > 50? val :50
 	}
 	function goBack(){

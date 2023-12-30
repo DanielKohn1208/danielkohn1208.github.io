@@ -14,8 +14,8 @@
 		}}
 	/>
 	{#if render}
-		<div transition:fade={{ delay: 200, duration: 700 }}>
-			<p>
+		<div transition:fade={{ delay: 150, duration: 500 }}>
+			<p class="paragraph">
 				I'm currently a student in my 1B term at the University of Waterloo
 				studying Computer Science. Besides my interest in Computer Science, I also love to ski and listen to jazz music. I'm currently looking for a coop position for summer 2024.
 				this summer.
@@ -118,5 +118,9 @@
 		display: flex;
 		flex-direction: column;
 		align-items: center;
+	}
+
+	.paragraph{
+		text-align: justify;
 	}
 </style>
