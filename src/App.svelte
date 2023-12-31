@@ -90,7 +90,7 @@
 			</ul>
 
 			<h2>Resume <Icon icon="twemoji:check-mark-button" /></h2>
-			Here is a pdf copy of my resume. Click<a href={resumeurl}>here</a> to
+			Here is a pdf copy of my resume. Click <a href={resumeurl}>here</a> to
 			download
 			<object
 				id="pdf-viewer"
