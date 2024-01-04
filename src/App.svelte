@@ -75,23 +75,29 @@
 			<ul>
 				<li>
 					<Icon icon="fxemoji:email" /> Email:
-					<a href="mailto:dmkohn@uwaterloo.ca">dmkohn@uwaterloo.ca</a>
+					<a target="_blank" href="mailto:dmkohn@uwaterloo.ca"
+						>dmkohn@uwaterloo.ca</a
+					>
 				</li>
 				<li>
 					<Icon icon="openmoji:linkedin" />
-					<a href="https://www.linkedin.com/in/daniel-kohn-925616262/"
+					<a
+						target="_blank"
+						href="https://www.linkedin.com/in/daniel-kohn-925616262/"
 						>Linkedin</a
 					>
 				</li>
 				<li>
 					<Icon icon="openmoji:github" />
-					<a href="https://github.com/DanielKohn1208">Github</a>
+					<a target="_blank" href="https://github.com/DanielKohn1208">Github</a>
 				</li>
 			</ul>
 
 			<h2>Resume <Icon icon="twemoji:check-mark-button" /></h2>
-			Here is a pdf copy of my resume. Click <a href={resumeurl}>here</a> to
-			download
+			Here is a pdf copy of my resume. Click<a target="_blank" href={resumeurl}
+				>here</a
+			>
+			to download
 			<object
 				id="pdf-viewer"
 				class="pdf-viewer"
@@ -100,11 +106,19 @@
 			></object>
 
 			<footer>
-				This website was built using <a href="https://svelte.dev/">Svelte</a>,
-				the <a href="https://github.com/catppuccin">Catpuccin Color Scheme</a>,
-				and the <a href="https://iconify.design/">Iconify Icon library</a>. View
-				the source code for this site
-				<a href="https://github.com/DanielKohn1208/danielkohn1208.github.io"
+				This website was built using <a
+					target="_blank"
+					href="https://svelte.dev/">Svelte</a
+				>, the
+				<a target="_blank" href="https://github.com/catppuccin"
+					>Catpuccin Color Scheme</a
+				>, and the
+				<a target="_blank" href="https://iconify.design/"
+					>Iconify Icon library</a
+				>. View the source code for this site
+				<a
+					target="_blank"
+					href="https://github.com/DanielKohn1208/danielkohn1208.github.io"
 					>here</a
 				>.
 			</footer>

@@ -5,7 +5,7 @@
 	export let description;
 </script>
 
-<a class="project-link" href={link}>
+<a target="_blank" class="project-link" href={link}>
 	<div class="project-container">
 		<h3 class="project-title">{title}</h3>
 		<p class="project-description">{description}</p>
@@ -18,7 +18,7 @@
 </a>
 
 <style>
-	.project-link{
+	.project-link {
 		text-decoration: none;
 	}
 	.project-technology {
@@ -57,7 +57,7 @@
 		margin-bottom: 20px;
 	}
 
-	.project-container:hover > .project-title  {
+	.project-container:hover > .project-title {
 		font-size: 45px;
 	}
 
@@ -73,5 +73,4 @@
 		color: var(--sky);
 		transition: 0.3s ease;
 	}
-	
 </style>
