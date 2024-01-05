@@ -94,7 +94,7 @@
 			</ul>
 
 			<h2>Resume <Icon icon="twemoji:check-mark-button" /></h2>
-			Here is a pdf copy of my resume. Click<a target="_blank" href={resumeurl}
+			Here is a pdf copy of my resume. Click <a target="_blank" href={resumeurl}
 				>here</a
 			>
 			to download
