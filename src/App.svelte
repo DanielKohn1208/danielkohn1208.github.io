@@ -165,7 +165,7 @@
 
 	img {
 		border-radius: 50px;
-		max-width: 400px;
+		max-width: 350px;
 		object-fit:cover;
 		display: block;
 		margin-left: auto;
