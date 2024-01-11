@@ -5,6 +5,7 @@
 	import Project from "./lib/Project.svelte";
 	let render = false;
 	import resumeurl from "./assets/Daniel_s_Resume.pdf";
+	import imageurl from "./assets/picture.jpg";
 </script>
 
 <div class="container">
@@ -13,13 +14,16 @@
 			render = true;
 		}}
 	/>
+
+
 	{#if render}
 		<div transition:fade={{ delay: 150, duration: 500 }}>
+			<img src={imageurl} alt="" class="">
 			<p class="paragraph">
 				I'm currently a student in my 1B term at the University of Waterloo
 				studying Computer Science. Besides my interest in Computer Science, I
 				also love to ski and listen to jazz music. I'm currently looking for a
-				coop position for summer 2024. this summer.
+				coop position for summer 2024. 
 			</p>
 
 			<h2>Projects <Icon icon="vscode-icons:folder-type-cli" /></h2>
@@ -157,5 +161,15 @@
 
 	.paragraph {
 		text-align: justify;
+	}
+
+	img {
+		border-radius: 50px;
+		max-width: 400px;
+		object-fit:cover;
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+		box-shadow: 0 0 80px var(--crust);
 	}
 </style>
