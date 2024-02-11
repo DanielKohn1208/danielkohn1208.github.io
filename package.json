@@ -14,7 +14,6 @@
     "vite": "^5.0.8"
   },
   "dependencies": {
-    "@iconify/svelte": "^3.1.6",
-    "vite-plugin-radar": "^0.9.3"
+    "@iconify/svelte": "^3.1.6"
   }
 }
