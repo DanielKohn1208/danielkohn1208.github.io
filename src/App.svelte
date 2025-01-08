@@ -20,10 +20,9 @@
 		<div transition:fade={{ delay: 150, duration: 500 }}>
 			<img src={imageurl} alt="" class="">
 			<p class="paragraph">
-				I'm currently a student in my 1B term at the University of Waterloo
-				studying Computer Science. Besides my interest in Computer Science, I
-				also love to ski and listen to jazz music. I'm currently looking for a
-				coop position for summer 2024. 
+				I'm currently a student in my second year at the University of Waterloo
+				pursuing a double major in Computer Science and Applied Mathematics. 
+        I'm currently looking for a coop position for Spring 2025. 
 			</p>
 
 			<h2>Projects <Icon icon="vscode-icons:folder-type-cli" /></h2>
