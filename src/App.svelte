@@ -20,10 +20,48 @@
 		<div transition:fade={{ delay: 150, duration: 500 }}>
 			<img src={imageurl} alt="" class="">
 			<p class="paragraph">
-				I'm currently a student in my second year at the University of Waterloo
+				I'm currently a student in my third year at the University of Waterloo
 				pursuing a double major in Computer Science and Applied Mathematics. 
-        I'm currently looking for a coop position for Spring 2025. 
+        I'm currently looking for a coop position for Spring 2026 and Fall 2026. 
 			</p>
+
+			<h2>
+				Contact Information <Icon icon="noto:closed-mailbox-with-raised-flag" />
+			</h2>
+			<ul>
+				<li>
+					<Icon icon="fxemoji:email" />
+					<a target="_blank" href="mailto:dmkohn@uwaterloo.ca"
+						>dmkohn@uwaterloo.ca</a
+					>
+				</li>
+				<li>
+					<Icon icon="openmoji:linkedin" />
+					<a
+						target="_blank"
+						href="https://www.linkedin.com/in/daniel-kohn-925616262/"
+						>Linkedin</a
+					>
+				</li>
+				<li>
+					<Icon icon="openmoji:github" />
+					<a target="_blank" href="https://github.com/DanielKohn1208">Github</a>
+				</li>
+			</ul>
+
+			<h2>Resume <Icon icon="twemoji:check-mark-button" /></h2>
+			Here is a pdf copy of my resume. Click <a target="_blank" href={resumeurl}
+				>here</a
+			>
+			to download
+			<object
+				id="pdf-viewer"
+				class="pdf-viewer"
+				data={resumeurl}
+				type="application/pdf"
+			></object>
+
+
 
 			<h2>Projects <Icon icon="vscode-icons:folder-type-cli" /></h2>
 			<div class="projects">
@@ -71,43 +109,6 @@
 					description={"Built a site to help friends and myself study for a chemistry quiz"}
 				/>
 			</div>
-
-			<h2>
-				Contact Information <Icon icon="noto:closed-mailbox-with-raised-flag" />
-			</h2>
-			<ul>
-				<li>
-					<Icon icon="fxemoji:email" /> Email:
-					<a target="_blank" href="mailto:dmkohn@uwaterloo.ca"
-						>dmkohn@uwaterloo.ca</a
-					>
-				</li>
-				<li>
-					<Icon icon="openmoji:linkedin" />
-					<a
-						target="_blank"
-						href="https://www.linkedin.com/in/daniel-kohn-925616262/"
-						>Linkedin</a
-					>
-				</li>
-				<li>
-					<Icon icon="openmoji:github" />
-					<a target="_blank" href="https://github.com/DanielKohn1208">Github</a>
-				</li>
-			</ul>
-
-			<h2>Resume <Icon icon="twemoji:check-mark-button" /></h2>
-			Here is a pdf copy of my resume. Click <a target="_blank" href={resumeurl}
-				>here</a
-			>
-			to download
-			<object
-				id="pdf-viewer"
-				class="pdf-viewer"
-				data={resumeurl}
-				type="application/pdf"
-			></object>
-
 			<footer>
 				This website was built using <a
 					target="_blank"
